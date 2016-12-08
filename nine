@@ -1,0 +1,7 @@
+arr = range(1,10)
+for i in arr:
+    str = ''
+    for j in range(1,10):
+        if j<=i:
+            str +='%s*%s=%s '%(j,i,i*j)
+    print str
